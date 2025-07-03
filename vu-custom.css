@@ -2215,14 +2215,18 @@ div#signup-title {
 }
 #tab-container {
     border: 0;
-    overflow-y: auto;
     height: 400px;
-    padding-bottom: 500px !important;
+    padding-bottom: 200px !important;
 }
+
 div#model-container {
     max-width: 100% !important;
     width: 100% !important;
 }
 #model-container .card {
     overflow-y: hidden;
+}
+div#customizer-tab-container {
+    overflow-y: auto!important;
+    max-height: 300px;
 }
